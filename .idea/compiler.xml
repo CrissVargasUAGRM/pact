@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="users" />
+        <module name="users-consumer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="orders" target="11" />
+      <module name="orders.main" target="11" />
+      <module name="orders.test" target="11" />
+      <module name="transacciones-consumer" target="11" />
+      <module name="transacciones-provider" target="11" />
+      <module name="users-provider" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="orders" options="-parameters" />
+      <module name="users" options="-parameters" />
+    </option>
+  </component>
+</project>

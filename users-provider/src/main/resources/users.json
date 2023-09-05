@@ -1,0 +1,10 @@
+[
+  {
+    "id": "string",
+    "userName": "string",
+    "email": "string",
+    "secretPass": "string",
+    "accountType": "string",
+    "personId": "string"
+  }
+]
